@@ -1,0 +1,27 @@
+Return-Path: <billing@evil-example.com>
+From: "Accounts Payable" <billing@evil-example.com>
+To: james@corp.com
+Subject: Invoice Overdue - Action Required
+Date: Tue, 24 Feb 2026 04:58:12 -0500
+Message-ID: <20260224095812.12345@evil-example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Received: from mail.evil-example.com (mail.evil-example.com [203.0.113.50])
+        by mx.corp.com with ESMTP id ABC123DEF456
+        for <james@corp.com>; Tue, 24 Feb 2026 04:58:18 -0500
+Authentication-Results: mx.corp.com;
+        spf=fail (sender IP is 203.0.113.50) smtp.mailfrom=evil-example.com;
+        dkim=fail header.d=evil-example.com;
+        dmarc=fail action=quarantine header.from=evil-example.com;
+
+Body:
+Hello,
+
+Your invoice is overdue. Please review and confirm payment status here:
+https://evil-example.com/login
+
+If you have already paid, ignore this message.
+
+Thanks,
+Accounts Payable
