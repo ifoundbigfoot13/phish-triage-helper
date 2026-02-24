@@ -11,9 +11,9 @@ A small SOC triage helper that:
 ## Project Structure
 - `triage.py` – main script
 - `requirements.txt` – dependencies
-- `samples/` – sanitized sample input (safe to share)
-- `reports/` – generated output (gitignored)
-- `.env.example` – environment variable template (no real keys)
+- `samples/` – sanitized sample input
+- `reports/` – generated output
+- `.env.example` – environment variable template
 
 ## Install (Powershell)
 ```
